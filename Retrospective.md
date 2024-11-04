@@ -1,16 +1,17 @@
 # Retrospective
 
-- name: Jane Doe
-- email: janedoe@u.boisestate.edu
+- name: Jordan Johnson
+- email: jordanjohnson23@u.boisestate.edu
 
 ## Experience
 
-TODO
+Experience was good overall! I had a bunch of fun with this lab and making the
+website heinous! 
 
 ## Known issues or Bugs
 
-TODO
+NONE
 
 ## Sources used
 
-TODO
+Walkthrough video, zybooks, google images for gif.
