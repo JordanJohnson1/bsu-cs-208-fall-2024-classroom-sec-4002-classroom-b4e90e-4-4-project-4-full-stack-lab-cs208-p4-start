@@ -1,8 +1,24 @@
 doctype html
-link(rel='stylesheet' href='css/style.css')
+html
+  head
+    title TODO LIST
+    link(rel="stylesheet" href="/css/style.css")
+    script(src="/main.js")
+  body(style="font-family: Arial, sans-serif;")
+    h1(style="color: #f00; background-color: #ff00ff; padding: 10px;") Simple TODO APP
 
-head
-    title My First Full Stack
-body
-    h1 Simple TODO APP
-    p TODO: Complete the app!
+    h3 Add TODO items here
+    form(action="/add", method="post")
+      label(for="todo") TODO:
+      input(type="text" name="todo" placeholder="Enter a task" required)
+      button(type="submit") Add
+
+    hr
+    h2 Your TODO List
+    ul
+      each task in tasks
+        li
+          | #{task.task}
+          form(action="/delete", method="post", style="display:inline; margin-left: 10px;")
+            input(type="hidden", name="id" value=task.id)
+            button(type="submit") Delete

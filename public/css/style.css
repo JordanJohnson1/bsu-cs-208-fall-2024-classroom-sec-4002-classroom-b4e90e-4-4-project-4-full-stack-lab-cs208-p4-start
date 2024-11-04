@@ -1,3 +1,75 @@
-body{
-    background-color: hotpink;
+
+/* ugly styling  */
+
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    background-image: url('/img/L8M3ip.gif');
+    background-size: auto; 
+    background-repeat: repeat; 
+    cursor: wait;
+    color: #009b00; 
+    margin: 20px;
+}
+
+h1 {
+    color: #0000ff; 
+    background-color: #ff0000; 
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: wait; 
+}
+
+h3, h2 {
+    color: #ff00ff; 
+    font-weight: bold;
+}
+
+form {
+    background-color: #ffff00; 
+    padding: 15px;
+    border: 2px dashed #000; 
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    color: #ff0000; 
+    background-color: #00ffff; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #0000ff; 
+    background-color: #ff00ff; 
+    border: 3px groove #00ff00; 
+    cursor: wait;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff0000;
+    color: #00ffff;
+}
+
+ul {
+    list-style-type: square; 
+    background-color: #00ff00; 
+    padding: 10px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #ff0000; 
+    background-color: #ffff00; 
+    padding: 10px;
+}
+
+hr {
+    border: 5px double #0000ff; 
+    margin: 30px 0;
 }
